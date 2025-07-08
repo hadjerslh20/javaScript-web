@@ -6,13 +6,13 @@
 let fruit = "Banana";
 switch(fruit) {
     case "Banana":
-        console.log("Banana is good!");
+        console.log(`${fruit} is good!`);
         break;
     case "Orange":
-        console.log("I am not a fan of Orange");
+        console.log(`I am not a fan of ${fruit}`);
         break;
     case "Apple":
-        console.log("How you like them apples ?");
+        console.log(`How you like them ${fruit}s ?`);
         break;
     default:
         console.log("I have never heard of that fruit");
